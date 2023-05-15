@@ -25,7 +25,7 @@ class HistoryAdapter(val activity: SimpleActivity, val items: List<History>, val
         val item = items[position]
         holder.bindView(item)
     }
-
+//sample
     override fun getItemCount() = items.size
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
